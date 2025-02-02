@@ -1,0 +1,19 @@
+Title: Flatmates Bill
+
+Description: An app that takes the electricity bill amount for a particular period,
+number of days each flatmate stayed in the house for that period and returns
+the amount that each flatmate needs to pay. It also generates a pdf report
+with each of the flatmates names and how much each of them need to pay.
+
+Objects: Bill:
+            period
+            amount
+
+         Flatmates:
+            names
+            no_of_days_stayed
+            pays()
+
+         GeneratePdf:
+            filename
+            generate(Flatmate1, Flatmate2,bill)
